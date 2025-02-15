@@ -36,19 +36,12 @@ class Rectangle:
         self.index += 1
         return result
 
+
 rect = Rectangle(5, 3)
 
 for values in rect:
-    print(values,end=" ")
+    print(values, end=" ")
 
-# # or we cn also use iter method
-# rect_value = Rectangle(8,7)
-# its_iter = iter(rect_value)
-
-# for dimension in its_iter:
-#     print(dimension)
-
-
-# #also we can convert it into a list
+# we can convert it into a list
 # its_values = list(rect_value)
 # print(its_values)
