@@ -10,7 +10,8 @@ run django_signal_test
 Make sure latest Django is installed.
 ```bash
   cd accuknox_assignment/1_signals/django_signal_test
-
+  python manage.py makemigrations signals_app
+  python manage.py migrate
   python manage.py runserver
 ```
     
