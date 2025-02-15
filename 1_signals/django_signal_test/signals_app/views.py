@@ -48,12 +48,11 @@ def test_thread_signal(request):
 def test_transaction_signal(request):
     """
     Question3:
-
+    We start a transaction using transaction.atomic() 
 
     Returns:
         JsonResponse: To show that the whole method ran and ended on the broswer.
     """
-    # Start a transaction using transaction.atomic()
     with transaction.atomic():
         # Before saving, we are inside a transaction block
         print(f"[View] Before save - in_atomic_block: {connection.in_atomic_block}")

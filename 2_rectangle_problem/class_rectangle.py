@@ -21,8 +21,7 @@ class Rectangle:
         return self
 
     def __next__(self):
-        """_summary_
-
+        """
         Raises:
             StopIteration: To stop iteration when iterator object reaches its length.
 
